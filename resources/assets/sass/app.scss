@@ -6,3 +6,8 @@
 @import 'elements/navbar';
 @import 'elements/buttons';
 @import 'elements/transitions';
+
+
+//Font awesome
+$fa-font-path: "../../../node_modules/font-awesome/fonts" !default;
+@import "node_modules/font-awesome/css/font-awesome";

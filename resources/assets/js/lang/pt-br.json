@@ -30,5 +30,8 @@
   "password_updated": "Sua senha foi atualizada!",
   "new_password": "Nova senha",
   "login_with": "Faça o login com",
-  "register_with": "Registre-se com"
+  "register_with": "Registre-se com",
+
+  "language" : "Idioma",
+  "edit_language" : "Mudar Idioma"
 }

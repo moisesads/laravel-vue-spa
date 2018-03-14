@@ -5,7 +5,8 @@
         <ul class="nav flex-column nav-pills">
           <li v-for="tab in tabs" class="nav-item">
             <router-link :to="{ name: tab.route }" class="nav-link" active-class="active">
-              <fa :icon="tab.icon" fixed-width/>
+              <!-- <fa :icon="tab.icon" fixed-width/> -->
+              <i :class="tab.icon" aria-hidden="true"></i>
               {{ tab.name }}
             </router-link>
           </li>
@@ -29,12 +30,17 @@ export default {
     tabs () {
       return [
         {
-          icon: 'user',
+          icon: 'fa fa-user',
           name: this.$t('profile'),
           route: 'settings.profile'
         },
         {
-          icon: 'lock',
+          icon: 'fa fa-language',
+          name: this.$t('language'),
+          route: 'settings.language'
+        },
+        {
+          icon: 'fa fa-lock',
           name: this.$t('password'),
           route: 'settings.password'
         }

@@ -8,6 +8,7 @@ const Home = () => import('~/pages/home')
 const Settings = () => import('~/pages/settings/index')
 const SettingsProfile = () => import('~/pages/settings/profile')
 const SettingsPassword = () => import('~/pages/settings/password')
+const SettingsLanguage = () => import('~/pages/settings/language')
 
 export default [
   { path: '/', name: 'welcome', component: Welcome },
@@ -21,7 +22,8 @@ export default [
   { path: '/settings', component: Settings, children: [
     { path: '', redirect: { name: 'settings.profile' }},
     { path: 'profile', name: 'settings.profile', component: SettingsProfile },
-    { path: 'password', name: 'settings.password', component: SettingsPassword }
+    { path: 'password', name: 'settings.password', component: SettingsPassword },
+    { path: 'language', name: 'settings.language', component: SettingsLanguage },
   ] },
 
   { path: '*', component: require('~/pages/errors/404') }
