@@ -1,4 +1,4 @@
-# Laravel-Vue SPA 
+# Laravel-Vue SPA
 
 <a href="https://travis-ci.org/cretueusebiu/laravel-vue-spa"><img src="https://travis-ci.org/cretueusebiu/laravel-vue-spa.svg?branch=master" alt="Build Status"></a>
 <a href="https://packagist.org/packages/cretueusebiu/laravel-vue-spa"><img src="https://poser.pugx.org/cretueusebiu/laravel-vue-spa/d/total.svg" alt="Total Downloads"></a>
@@ -12,9 +12,9 @@
 
 ## Features
 
-- Laravel 5.5 
+- Laravel 5.6 
 - Vue + VueRouter + Vuex + VueI18n
-- Pages with custom layouts 
+- Pages with custom layouts
 - Login, register and password reset
 - Authentication with JWT
 - Socialite integration
