@@ -78,9 +78,10 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'pt-br',
 
     'locales' => [
+        'pt-br' => 'PT-BR',
         'en' => 'EN',
         'zh-CN' => '中文',
         'es' => 'ES',
